@@ -1,0 +1,49 @@
+# Ignore bundler config.
+/.bundle
+# ignore webpack distribution
+/app/assets/javascripts/webpack/
+
+# Ignore coverage reports
+/coverage
+
+# Ignore webpack stats
+stats.json
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+.DS_Store
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore application configuration
+/config/application.yml
+.env
+.rbenv-vars
+
+*.orig
+*.log
+node_modules
+dist
+*.sublime-workspace
+*.log
+*.dat
+*.out
+*.pid
+*.gz
+*~
+pids
+logs
+results
+.bundle
+
+.idea
+
+# Ignore z_notes
+z_notes
+
+# Ignore Redis DB dump
+dump.*

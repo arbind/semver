@@ -1,0 +1,16 @@
+{
+  "name": "semver",
+  "version": "1.0.0",
+  "description": "Semantic Versioning Library",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee js/index.coffee",
+    "test": "mocha --compilers coffee:coffeescript/register"
+  },
+  "author": "Arbind Thakur",
+  "license": "ISC",
+  "devDependencies": {
+    "coffeescript": "^2.2.4",
+    "mocha": "^5.0.5"
+  }
+}
